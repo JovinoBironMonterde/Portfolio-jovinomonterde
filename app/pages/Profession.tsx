@@ -172,7 +172,7 @@ const Profession = () => {
                              <h5>September 2022 - November 2022</h5>
                              <h5>Office Admin</h5>
                              <p>Maintain organized and up-to-date files, documents,
-                                 and records related to the company's operations,
+                                 and records related to the company&#39;s operations,
                                  including customer orders, invoices, and contracts.</p>
                          </div>
                          <div className="linr-hr2">
