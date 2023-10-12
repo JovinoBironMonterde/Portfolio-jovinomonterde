@@ -1,0 +1,115 @@
+.project-container{
+    width: 100%;
+}
+
+.projectCon{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+.project{
+    width: 300px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    transition: transform .2s;
+    border-radius: 4px;
+    box-shadow: 	0px 0px 11px 1px rgba(0,0,0,0.14);
+    border-radius:	4px;
+    margin: 10px;
+}
+
+.project-text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: -100%;
+    padding: 30px;
+    color: #fff;
+
+}
+.project:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    z-index: 999;
+    box-shadow: 	0px 0px 11px 1px rgba(0,0,0,0.14),
+		0px 0px 19px 14px rgba(0,0,0,0.03),
+		0px 0px 26px 4px rgba(0,0,0,0.14);
+/* border:	1px solid rgba(0,0,0,0); */
+
+  }
+.project:hover .project-text{
+    bottom: 0;
+    left: 0;
+    transition: all .5s;
+    background-color: rgba(0, 0, 0, 0.575);
+    font-size: 12px;  
+}
+.stacks{
+    background-color: #bdbdbd;
+    padding: 5px;
+    border-radius: 20px;
+}
+.stacks span{
+    font-size: 12px;
+    line-height: 10px;
+}
+
+.imgCon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.imgCon .img{
+    width: 30px;
+    height: 30px;
+    background-color:rgb(248, 162, 2);
+    padding: 5px;
+    border: 1px solid rgb(248, 162, 2);
+    border-radius: 15px;
+    margin: 0 10px;
+}
+
+.div-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+}
+.div-btn a{
+   width: 90px;
+   background-color: #f3f3f3;
+   border-radius: 20px;
+   padding: 5px;
+   margin: 10px;
+   font-size: 10px !important;
+   text-decoration: none;
+   color: black;
+}
+.div-btn a:hover{
+    cursor: pointer;
+    background-color: #b3b2b0;
+}
+
+@media (max-width: 777px){
+    .project-section{
+       padding: 50px 0;
+    }
+    .project{
+        width: 500px;
+
+    }
+    .project:hover {
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+      }
+}

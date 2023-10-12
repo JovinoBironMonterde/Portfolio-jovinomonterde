@@ -1,0 +1,58 @@
+
+.About-content{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+}
+.aboutImage{
+     /* border-radius: 30% 70% 70% 80% / 80% 30% 70% 40%; */
+     overflow: hidden;
+     /* border-radius: 44%; */
+}
+.downloadBTN {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #3d405b;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 5px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+   }
+   
+   .downloadBTN span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+   }
+   
+   .downloadBTN span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   .downloadBTN:hover span {
+    padding-right: 15px;
+   }
+   
+   .downloadBTN:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
+   .socialAcout{
+        margin: 0 10px;
+   }
+   @media (max-width: 767px) {
+     .About-content{
+          display: block;
+     }
+   }
