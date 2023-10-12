@@ -11,7 +11,7 @@ const Services = () => {
                         <h3>My Service</h3>
                     </div>
 
-                    <div className="divBox-con">
+                    <div className="divBox-con reveal fade-bottom">
                         <div className="divBox reveal">
                             <div className="flex items-center justify-between">
                               <span className='serviceTitle'>Responsive Web Design</span>

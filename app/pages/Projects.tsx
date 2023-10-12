@@ -28,35 +28,25 @@ const Projects = () => {
      <div className="project-container">
             {/* <h5>Projects</h5> */}
             <div className="projectCon">
-                <div className="project">
+                <div className="project reveal fade-bottom">
                   <Image src={lamplight} alt="Next.js" width={500} />
                     <div className="project-text">
                         <h5>Lamp Light Page</h5>
                        <div className="imgCon">
                             <div className="stacks mx-2">
-                                {/* <div className="img"><img src="./img/nextjs.png" alt="" width="100%"></div> */}
                                 <Image src={nextjsIcon} alt="Next.js" width={20} height={20} />
-                                
                             </div>
                             <div className="stacks mx-2">
-                              <Image src={htmlIcon} alt="Next.js" width={20} height={20} />
-                                {/* <div className="img"><img src="./img/html.png" alt="" width="100%"></div> */}
-                               
+                              <Image src={htmlIcon} alt="Next.js" width={20} height={20} />               
                             </div>
                             <div className="stacks mx-2">
-                              <Image src={cssIcon} alt="Next.js" width={20} height={20} />
-                                {/* <div className="img"><img src="./img/css.png" alt="" width="100%"></div> */}
-                                
+                              <Image src={cssIcon} alt="Next.js" width={20} height={20} />  
                             </div>
                             <div className="stacks mx-2">
                               <Image src={bootstrapIcon} alt="Next.js" width={20} height={20} />
-                                {/* <div className="img"><img src="./img/bootstrap.png" alt="" width="100%"></div> */}
-                               
                             </div>
                             <div className="stacks mx-2">
                               <Image src={jsIcon} alt="Next.js" width={20} height={20} />
-                                {/* <div className="img"><img src="./img/js.png" alt="" width="100%"></div>  */}
-                               
                             </div> 
                     </div>
                     <div className="div-btn">
@@ -65,7 +55,7 @@ const Projects = () => {
                     </div>
                     </div>
                 </div>
-                <div className="project">
+                <div className="project reveal fade-bottom">
                   <Image src={kylin} alt="Next.js" width={500} />
                     <div className="project-text">
                         <h5>Kylin Project</h5>
@@ -89,7 +79,7 @@ const Projects = () => {
                     </div>
                     </div>
                 </div>
-                <div className="project">
+                <div className="project reveal fade-bottom">
                   <Image src={Losangeles} alt="Next.js" width={500} />
                     <div className="project-text">
                         <h5>Losangeles Mountains</h5>
@@ -113,7 +103,7 @@ const Projects = () => {
                     </div>
                     </div>
                 </div>
-                <div className="project">
+                <div className="project reveal fade-bottom">
                   <Image src={wordpress} alt="Next.js" width={500} />
                     <div className="project-text">
                         <h5>Stavick Studios</h5>
@@ -130,7 +120,7 @@ const Projects = () => {
                     </div>
                     </div>
                 </div>
-                <div className="project">
+                <div className="project reveal fade-bottom">
                   <Image src={BURGERBISTRO} alt="Next.js" width={500} />
                     <div className="project-text">
                         <h5>Burger Bistro</h5>
@@ -147,7 +137,7 @@ const Projects = () => {
                     </div>
                     </div>
                 </div>
-                <div className="project">
+                <div className="project reveal fade-bottom">
                   <Image src={avails} alt="Next.js" width={500} />
                     <div className="project-text">
                         <h5>Avails</h5>
@@ -173,7 +163,7 @@ const Projects = () => {
                     </div>
                     </div>
                 </div>
-                <div className="project">
+                <div className="project reveal fade-bottom">
                   <Image src={apchu} alt="Next.js" width={500} />
                     <div className="project-text">
                         <h5>Apchu</h5>
@@ -199,7 +189,7 @@ const Projects = () => {
                     </div>
                     </div>
                 </div>
-                <div className="project">
+                <div className="project reveal fade-bottom">
                   <Image src={Sprout} alt="Next.js" width={500} />
                     <div className="project-text">
                         <h5>Sprout Catering</h5>
@@ -225,7 +215,7 @@ const Projects = () => {
                     </div>
                     </div>
                 </div>
-                <div className="project">
+                <div className="project reveal fade-bottom">
                   <Image src={mimnu} alt="Next.js" width={500} />
                     <div className="project-text">
                         <h5>Mimnu E-commerce</h5>

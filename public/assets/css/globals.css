@@ -157,6 +157,75 @@ span{
 /* End Ripple */
 
 
+/* START REVEAL ANIMATION */
+.reveal {
+  position: relative;
+  opacity: 0;
+  transition: all .5s ease;
+  background-color: transparent;
+}
+
+.reveal.active {
+  opacity: 1;
+  transition: all .9s ease;
+}
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+@keyframes fade-top {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* START REVEAL ANIMATION */
+
+
+
+
+
+
 
 .NavbarContainer{
   position: fixed;
@@ -178,9 +247,9 @@ ul  li:hover{
   cursor: pointer;
   background-color: rgb(184, 184, 184);
 }
-.active{
+/* .active{
   background-color: rgb(184, 184, 184);
-}
+} */
 .pageContentContaier{
   width: 100%;
   height: auto;
