@@ -101,7 +101,7 @@ const Profession = () => {
                      </div>
                      <div className="Circlebar-container mt-4 reveal mb-4" >
                         <div className="round-bar">
-                            <div className='text-center mx-3 reveal fade-left'>
+                            <div className='text-center mx-2 reveal fade-left'>
                                 {/* <span className="title ">figma</span> */}
                                 <div className="outer figma">
                                     <div className="inner">
@@ -114,7 +114,7 @@ const Profession = () => {
                                     </span>
                                 </div>
                             </div>
-                            <div className='text-center mx-3 reveal fade-left'>
+                            <div className='text-center mx-2 reveal fade-left'>
                                 {/* <span className="title ">Trello</span> */}
                                 <div className="outer figma">
                                     <div className="inner">
@@ -126,7 +126,7 @@ const Profession = () => {
                                     </span>
                                 </div>
                             </div>
-                            <div className='text-center mx-3 reveal fade-left'>
+                            <div className='text-center mx-2 reveal fade-left'>
                                 {/* <span className="title ">figma</span> */}
                                 <div className="outer figma">
                                     <div className="inner">
@@ -141,7 +141,7 @@ const Profession = () => {
                  </div>
                  
                  <div className="experience">
-                     <div className="experience-container reveal">
+                     <div className="experience-container ">
                            <h4>Experience</h4>
                          <div className="expCon reveal fade-bottom">
                              <h5>Concentrix</h5>
