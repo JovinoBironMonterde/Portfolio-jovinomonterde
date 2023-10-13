@@ -82,7 +82,7 @@ const Footer = () => {
                 className={`px-2 py-1 ${activeNavItem === '#Resume' ? 'active' : ''}`}
                 onClick={() => scrollToSection('#Resume')}
               >
-                Resume
+                <a href="https://drive.google.com/file/d/1E0aMGCoKj6dtNwpJJ94jbAkH6DrXgN3M/view" target="_blank">Resume</a>
               </li>
               <li
                 className={`px-2 py-1 ${activeNavItem === '#Services' ? 'active' : ''}`}

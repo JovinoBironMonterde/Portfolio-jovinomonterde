@@ -83,7 +83,7 @@ const Navbar = () => {
               className={`px-2 py-1 ${activeNavItem === '#Resume' ? 'active' : ''}`}
               onClick={() => scrollToSection('#Resume')}
             >
-              <a href="https://drive.google.com/file/d/1zycD5y-Mj0cYC-1ZA7EDe_8BMcIR2mbJ/view" target="_blank">Resume</a>
+              <a href="https://drive.google.com/file/d/1E0aMGCoKj6dtNwpJJ94jbAkH6DrXgN3M/view" target="_blank">Resume</a>
             </li>
             <li
               className={`px-2 py-1 ${activeNavItem === '#Services' ? 'active' : ''}`}
@@ -115,7 +115,7 @@ const Navbar = () => {
             <li className={`px-2 my-2 py-1 ${activeNavItem === '#Hero' ? 'active' : ''}`} onClick={() => scrollToSection('#Hero')}>Home</li>
             <li className={`px-2 my-2 py-1 ${activeNavItem === '#About' ? 'active' : ''}`} onClick={() => scrollToSection('#About')}>About</li>
             <li className={`px-2 my-2 py-1 ${activeNavItem === '#Profession' ? 'active' : ''}`} onClick={() => scrollToSection('#Profession')}>Profession</li>
-            <li className={`px-2 my-2 py-1 ${activeNavItem === '#Resume' ? 'active' : ''}`} onClick={() => scrollToSection('#Resume')}> <a href="https://drive.google.com/file/d/1zycD5y-Mj0cYC-1ZA7EDe_8BMcIR2mbJ/view" target="_blank">Resume</a></li>
+            <li className={`px-2 my-2 py-1 ${activeNavItem === '#Resume' ? 'active' : ''}`} onClick={() => scrollToSection('#Resume')}> <a href="https://drive.google.com/file/d/1E0aMGCoKj6dtNwpJJ94jbAkH6DrXgN3M/view" target="_blank">Resume</a></li>
             <li className={`px-2 my-2 py-1 ${activeNavItem === '#Services' ? 'active' : ''}`} onClick={() => scrollToSection('#Services')}>Services</li>
             <li className={`px-2 my-2 py-1 ${activeNavItem === '#Contact' ? 'active' : ''}`} onClick={() => scrollToSection('#Contact')}>Contact</li>
           </ul>

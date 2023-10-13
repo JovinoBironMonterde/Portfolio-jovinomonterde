@@ -231,7 +231,7 @@ span{
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #cecdcd;
+  background-color: #8d8b8b;
   z-index: 9999;
 }
 .logoIMG:hover{
@@ -241,7 +241,7 @@ span{
   position: absolute;
   width: 100%;
   height: 100vh;
-  background-color: #33333369;
+  background-color: #f8f8f869;
 
 }
 ul  li{
