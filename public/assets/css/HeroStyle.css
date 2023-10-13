@@ -24,13 +24,19 @@
     overflow: hidden;
     margin: 0 auto;
     margin-bottom: 30px;
+  }  .HeroSection .h2{
+    display: none;
   }
   @media (max-width: 767px) {
     .HeroSection .h2{
       display: block !important;
+      font-size: 64px;
     }
     .HeroSection .h1{
       display: none;
+    }
+    .h3Frontendtxt{
+      font-size: 25px;
     }
   }
   

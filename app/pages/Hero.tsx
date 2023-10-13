@@ -33,8 +33,10 @@ const Hero = () => {
           <Image src={HeroImage} alt="Your Image Alt Text" width={300} height={200} />
         </div>
         <h1 className='h1'>Jovino Monterde</h1><br />
-        <h2 className='h2'>Jovino Monterde</h2><br />
-        <h3>Frontend Developer </h3><br />
+        <h2 className='h2'>Jovino Monterde</h2>
+
+        <h3 className='h3Frontendtxt'>Frontend Developer </h3><br />
+       
         <p>I&#39;m focused on building responsive front-end web applications integrating back-end technologies.</p>
         <div className="heroButton">
           <button className='cstmBtn' onClick={() => scrollToSection('#Projects')}><span>Project</span></button>
