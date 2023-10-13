@@ -38,7 +38,7 @@ const Hero = () => {
         <p>I&#39;m focused on building responsive front-end web applications integrating back-end technologies.</p>
         <div className="heroButton">
           <button className='cstmBtn' onClick={() => scrollToSection('#Projects')}><span>Project</span></button>
-          <button className='cstmBtn'><span>Hire Me!</span></button>
+          <button className='cstmBtn' onClick={() => scrollToSection('#Contact')}><span>Hire Me!</span></button>
         </div>
      </div>
     </div>
