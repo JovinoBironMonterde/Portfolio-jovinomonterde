@@ -19,7 +19,7 @@
     max-width: 1300px;
     margin: 0 auto;
     height: auto;
-    padding: 25px;
+    padding: 0 25px;
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
@@ -101,9 +101,9 @@
 
 }
 
-.expCon{
+/* .expCon{
      margin: 40px 0;
-}
+} */
 .html{
     width: 90%;
 }
@@ -111,10 +111,10 @@
     width: 90%;
 }
 .tailwind{
-    width: 70%;
+    width: 80%;
 }
 .bootstrap{
-    width: 80%;
+    width: 85%;
 }
 .javascript{
     width: 75%;
@@ -135,10 +135,10 @@
     width: 75%;
 }
 .mysql{
-    width: 75%;
+    width: 80%;
 }
 .git{
-    width: 75%;
+    width: 80%;
 }
 .linr-hr, .linr-hr2{
     display: none;
@@ -232,7 +232,7 @@
 @media (max-width: 890px){
     .linr-hr, .linr-hr2{
         display: block;
-        margin-bottom: 40px;
+    
     }
     .experience-section .exp-container::before{
         display: none;
@@ -283,6 +283,7 @@
 }
 @media only screen and (max-width: 450px) {
     .bar-container, .experience-container{
-        padding: 25px 0 !important;
+        padding:  0 !important;
+        
     }
 }

@@ -91,7 +91,7 @@
     border-radius: 20px;
 }
 .contactIcon:hover, .btnsend:hover{
-    background-color: rgb(1, 37, 37);
+    background-color: #2f3535;
     cursor: pointer;
     color: #fff;
     transition: all .3s ease-in-out;

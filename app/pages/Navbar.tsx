@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -82,7 +81,7 @@ const Navbar = () => {
               className={`px-2 py-1 ${activeNavItem === '#Resume' ? 'active' : ''}`}
               onClick={() => scrollToSection('#Resume')}
             >
-              Resume
+              Blog
             </li>
             <li
               className={`px-2 py-1 ${activeNavItem === '#Services' ? 'active' : ''}`}
@@ -101,15 +100,15 @@ const Navbar = () => {
         <div className='xl:hidden md:hidden sm:block p-4' onClick={toggleMobileMenu}>
           {isMobileMenuVisible ? <CloseIcon /> : <MenuIcon />}
         </div>
-        <div className='absolute w-[230px] h-[100vh] left-[-300px] top-0 bg-gray-300 transition-all ease-in-out' style={mobileMenuStyle}>
-          <div className="image-container">
+        <div className='absolute border-r-gray-950 w-[230px] h-[100vh] left-[-300px] top-0 bg-gray-300 transition-all ease-in-out' style={mobileMenuStyle}>
+          <div className="image-container ">
             <Image src={Profile} alt="Your Image Alt Text" width={300} height={200} />
           </div>
           <ul className='mt-3 w-full justify-center text-center'>
             <li className={`px-2 py-1 ${activeNavItem === '#Hero' ? 'active' : ''}`} onClick={() => scrollToSection('#Hero')}>Home</li>
             <li className={`px-2 py-1 ${activeNavItem === '#About' ? 'active' : ''}`} onClick={() => scrollToSection('#About')}>About</li>
             <li className={`px-2 py-1 ${activeNavItem === '#Profession' ? 'active' : ''}`} onClick={() => scrollToSection('#Profession')}>Profession</li>
-            <li className={`px-2 py-1 ${activeNavItem === '#Resume' ? 'active' : ''}`} onClick={() => scrollToSection('#Resume')}>Resume</li>
+            <li className={`px-2 py-1 ${activeNavItem === '#Resume' ? 'active' : ''}`} onClick={() => scrollToSection('#Resume')}>Blog</li>
             <li className={`px-2 py-1 ${activeNavItem === '#Services' ? 'active' : ''}`} onClick={() => scrollToSection('#Services')}>Services</li>
             <li className={`px-2 py-1 ${activeNavItem === '#Contact' ? 'active' : ''}`} onClick={() => scrollToSection('#Contact')}>Contact</li>
           </ul>

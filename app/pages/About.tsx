@@ -11,7 +11,7 @@ import RevealAnimation from '../components/RevealAnimation'
 const About = () => {
   return (
     
-    <div className='pageContentContaier px-2 py-20' id='About'>
+    <div className='pageContentContaier px-4 pt-20' id='About'>
        <RevealAnimation />
         <div className="About-content">
           <div className="flex flex-[40%] justify-center reveal fade-bottom">
@@ -19,8 +19,8 @@ const About = () => {
               <Image src={AboutImage} alt="Your Image Alt Text" width={300} height={200} />
               </div>
           </div>
-          <div className="flex flex-[40%] justify-center items-center">
-              <div className="reveal fade-bottom">
+          <div className="flex flex-[40%] justify-center items-center p-4">
+              <div className="reveal fade-bottom ">
                 <h3>About</h3>
               <p>Hello! I&#39;m <b>Jovi Monterde</b>,  a passionate frontend developer with a love for creating beautiful
                  and user-friendly web experiences. With 11 months of experience in the field, I&#39;ve had the 
@@ -32,10 +32,10 @@ const About = () => {
 
                 <div className='mt-4'>
                   <button className='downloadBTN'><a className="linked btnlinked" type="button" href="https://drive.google.com/file/d/1CV2dxRuBfip57SsgKnsiOWEhYf8_FwGQ/view" target="_blank"><span>Download CV</span></a></button>
-                  <a href="https://www.facebook.com/jhovi.norib" target="_blank" className='socialAcout'><FacebookIcon /></a>
-                  <a href="https://github.com/JovinoBironMonterde" target="_blank" className='socialAcout'><GitHubIcon /></a>
-                  <a href="https://www.linkedin.com/in/jovinobironmonterde/" target="_blank" className='socialAcout'><LinkedInIcon /></a>
-                  <a href="https://www.onlinejobs.ph/jobseekers/info/1887523" target="_blank" className='socialAcout'><LinkedInIcon /></a>
+                  <a href="https://www.facebook.com/jhovi.norib" target="_blank" className='socialAcout '><FacebookIcon /></a>
+                  <a href="https://github.com/JovinoBironMonterde" target="_blank" className='socialAcout '><GitHubIcon /></a>
+                  <a href="https://www.linkedin.com/in/jovinobironmonterde/" target="_blank" className='socialAcout '><LinkedInIcon /></a>
+                  {/* <a href="https://www.onlinejobs.ph/jobseekers/info/1887523" target="_blank" className='socialAcout '><LinkedInIcon /></a> */}
                 </div>
               </div>
           </div>

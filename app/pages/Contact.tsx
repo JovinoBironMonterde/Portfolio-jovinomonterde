@@ -23,11 +23,11 @@ const Contact = () => {
     setTooltip(null);
   };
   return (
-    <div className='px-2 py-20' id="Contact">
+    <div className='px-4 py-20' id="Contact">
       <div className="w-full text-center"><h4>Get In Touch</h4></div>
       <br />
       <div className='w-full'>
-        <div className="formContainer ">
+          <div className="formContainer ">
           <div className='formcontent'>
             <div className='text-center'>
               <span className='flex items-center justify-center'><IconDeviceMobile />09664390844(Globe)</span>

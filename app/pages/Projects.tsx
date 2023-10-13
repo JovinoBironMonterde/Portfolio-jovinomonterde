@@ -26,7 +26,7 @@ const Projects = () => {
   return (
     <div className='pageContentContaier py-20' id='Projects'>
      <div className="project-container">
-            {/* <h5>Projects</h5> */}
+            <h4 className='text-center mb-10'>Projects</h4>
             <div className="projectCon">
                 <div className="project reveal fade-bottom">
                   <Image src={lamplight} alt="Next.js" width={500} />

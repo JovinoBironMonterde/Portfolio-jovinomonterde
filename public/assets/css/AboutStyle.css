@@ -18,7 +18,7 @@
     text-align: center;
     font-size: 17px;
     padding: 5px;
-    width: 180px;
+    width: 130px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
@@ -50,9 +50,19 @@
    }
    .socialAcout{
         margin: 0 10px;
+        padding: 13px 10px;
+       border-radius: 25px;
+   }
+   .socialAcout:hover{
+     background-color: #2f3535;
+     color: #fff;
+     transition: all .3s ease-in-out;
    }
    @media (max-width: 767px) {
      .About-content{
           display: block;
+     }
+     .socialAcout{
+          margin: 0 2px;
      }
    }

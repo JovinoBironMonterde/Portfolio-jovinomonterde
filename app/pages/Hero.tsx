@@ -19,7 +19,7 @@ const Hero = () => {
   };
 
   return (
-    <div className='HeroSection pageContentContaier px-2 py-20' id='Hero'>
+    <div className='HeroSection pageContentContaier px-4 py-20' id='Hero'>
       <div className="text-center justify-center my-10">
         {/* <div className="flex justify-center items-center">
           <h3>Front</h3>
@@ -32,9 +32,10 @@ const Hero = () => {
         <div className="HeroImage">
           <Image src={HeroImage} alt="Your Image Alt Text" width={300} height={200} />
         </div>
-        <h1>Jovino Monterde</h1><br />
-        <h3>FrontEnd Web Developer </h3><br />
-        <p>I’m focused on building responsive front-end web applications integrating back-end technologies.</p>
+        <h1 className='h1'>Jovino Monterde</h1><br />
+        <h2 className='h2'>Jovino Monterde</h2><br />
+        <h3>Frontend Developer </h3><br />
+        <p>I&#39;m focused on building responsive front-end web applications integrating back-end technologies.</p>
         <div className="heroButton">
           <button className='cstmBtn' onClick={() => scrollToSection('#Projects')}><span>Project</span></button>
           <button className='cstmBtn'><span>Hire Me!</span></button>
