@@ -251,7 +251,10 @@ ul  li{
 }
 ul  li:hover{
   cursor: pointer;
-  background-color: rgb(184, 184, 184);
+  background-color: rgb(206, 203, 203);
+}
+.sidebarname{
+  border-bottom: 1px solid rgb(167, 165, 165);
 }
 /* .active{
   background-color: rgb(184, 184, 184);

@@ -5,8 +5,10 @@ import Image from 'next/image';
 import Profile from '../../public/assets/img/image1.jpg'; 
 import Logo from '../../public/assets/img/logo2.png'; 
 import MenuIcon from '@mui/icons-material/Menu';
+import MedicalInformationIcon from '@mui/icons-material/MedicalInformation';
 import CloseIcon from '@mui/icons-material/Close'; // Import the CloseIcon
-import { useRouter } from 'next/router';
+// import { useRouter } from 'next/router';
+// import { IconHome2,IconAddressBook,IconFileCv   } from '@tabler/icons-react';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -81,7 +83,7 @@ const Navbar = () => {
               className={`px-2 py-1 ${activeNavItem === '#Resume' ? 'active' : ''}`}
               onClick={() => scrollToSection('#Resume')}
             >
-              Blog
+              <a href="https://drive.google.com/file/d/1zycD5y-Mj0cYC-1ZA7EDe_8BMcIR2mbJ/view" target="_blank">Resume</a>
             </li>
             <li
               className={`px-2 py-1 ${activeNavItem === '#Services' ? 'active' : ''}`}
@@ -104,13 +106,18 @@ const Navbar = () => {
           <div className="image-container ">
             <Image src={Profile} alt="Your Image Alt Text" width={300} height={200} />
           </div>
-          <ul className='mt-3 w-full justify-center text-center'>
-            <li className={`px-2 py-1 ${activeNavItem === '#Hero' ? 'active' : ''}`} onClick={() => scrollToSection('#Hero')}>Home</li>
-            <li className={`px-2 py-1 ${activeNavItem === '#About' ? 'active' : ''}`} onClick={() => scrollToSection('#About')}>About</li>
-            <li className={`px-2 py-1 ${activeNavItem === '#Profession' ? 'active' : ''}`} onClick={() => scrollToSection('#Profession')}>Profession</li>
-            <li className={`px-2 py-1 ${activeNavItem === '#Resume' ? 'active' : ''}`} onClick={() => scrollToSection('#Resume')}>Blog</li>
-            <li className={`px-2 py-1 ${activeNavItem === '#Services' ? 'active' : ''}`} onClick={() => scrollToSection('#Services')}>Services</li>
-            <li className={`px-2 py-1 ${activeNavItem === '#Contact' ? 'active' : ''}`} onClick={() => scrollToSection('#Contact')}>Contact</li>
+          <div className='sidebarname text-center py-3'>
+            <h4>Jovino Monterde</h4>
+            <h5>Frontend Developer</h5>
+            </div>
+
+          <ul className='mt-10 w-full justify-center text-center'>
+            <li className={`px-2 my-2 py-1 ${activeNavItem === '#Hero' ? 'active' : ''}`} onClick={() => scrollToSection('#Hero')}>Home</li>
+            <li className={`px-2 my-2 py-1 ${activeNavItem === '#About' ? 'active' : ''}`} onClick={() => scrollToSection('#About')}>About</li>
+            <li className={`px-2 my-2 py-1 ${activeNavItem === '#Profession' ? 'active' : ''}`} onClick={() => scrollToSection('#Profession')}>Profession</li>
+            <li className={`px-2 my-2 py-1 ${activeNavItem === '#Resume' ? 'active' : ''}`} onClick={() => scrollToSection('#Resume')}> <a href="https://drive.google.com/file/d/1zycD5y-Mj0cYC-1ZA7EDe_8BMcIR2mbJ/view" target="_blank">Resume</a></li>
+            <li className={`px-2 my-2 py-1 ${activeNavItem === '#Services' ? 'active' : ''}`} onClick={() => scrollToSection('#Services')}>Services</li>
+            <li className={`px-2 my-2 py-1 ${activeNavItem === '#Contact' ? 'active' : ''}`} onClick={() => scrollToSection('#Contact')}>Contact</li>
           </ul>
         </div>
       </nav>
