@@ -9,6 +9,7 @@ import Services from './pages/Services'
 import Contact from './pages/Contact'
 import Projects from './pages/Projects'
 import Footer from './pages/Footer'
+// import DarkModeToggle from './components/DarkModeToggle'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,6 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+    
         <Navbar/>
         <Hero/>
         <About/>

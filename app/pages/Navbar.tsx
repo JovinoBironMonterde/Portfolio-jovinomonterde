@@ -6,7 +6,9 @@ import Profile from '../../public/assets/img/image1.jpg';
 import Logo from '../../public/assets/img/logo2.png'; 
 import MenuIcon from '@mui/icons-material/Menu';
 import MedicalInformationIcon from '@mui/icons-material/MedicalInformation';
-import CloseIcon from '@mui/icons-material/Close'; // Import the CloseIcon
+import CloseIcon from '@mui/icons-material/Close'; 
+import DarkModeToggle from '../components/DarkModeToggle'
+import { IconMoonFilled, IconSunFilled  } from '@tabler/icons-react';
 // import { useRouter } from 'next/router';
 // import { IconHome2,IconAddressBook,IconFileCv   } from '@tabler/icons-react';
 
@@ -14,6 +16,8 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
   const [activeNavItem, setActiveNavItem] = useState<string | null>('#');
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
 
 
   useEffect(() => {
@@ -39,7 +43,7 @@ const Navbar = () => {
   };
 
   const mobileMenuStyle = {
-    left: isMobileMenuVisible ? '0px' : '-300px',
+    left: isMobileMenuVisible ? '0px' : '-100%',
   };
 
   const scrollToSection = (sectionId: string) => {
@@ -51,7 +55,32 @@ const Navbar = () => {
     setActiveNavItem(sectionId);
   };
 
+
+  // DARKMODE
+
+
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+  
+    if (isDarkMode) {
+      document.body.classList.remove('dark-mode');
+      const mobilenavbar = document.querySelector('.mobilenavbar');
+      if (mobilenavbar) {
+        mobilenavbar.classList.remove('dark-mode');
+      }
+    } else {
+      document.body.classList.add('dark-mode');
+      const mobilenavbar = document.querySelector('.mobilenavbar');
+      if (mobilenavbar) {
+        mobilenavbar.classList.add('dark-mode');
+      }
+    }
+  }
+  
+ 
+
   return (
+    
     <div className='NavbarContainer flex justify-between w-full h-[60px]'>
       <nav className='flex justify-between w-full h-[60px]'>
         <div className="logo pl-4">
@@ -83,7 +112,7 @@ const Navbar = () => {
               className={`px-2 py-1 ${activeNavItem === '#Resume' ? 'active' : ''}`}
               onClick={() => scrollToSection('#Resume')}
             >
-              <a href="https://drive.google.com/file/d/1E0aMGCoKj6dtNwpJJ94jbAkH6DrXgN3M/view" target="_blank">Resume</a>
+              <a href="https://drive.google.com/file/d/1bf6M3LNK8ONDyYhjW2_t9FFp3diqqesd/view" target="_blank">Resume</a>
             </li>
             <li
               className={`px-2 py-1 ${activeNavItem === '#Services' ? 'active' : ''}`}
@@ -97,12 +126,21 @@ const Navbar = () => {
             >
               Contact
             </li>
+            <div className="navdevider ">|</div>
+            <div className="px-2 py-1 flex items-center"><DarkModeToggle /></div>
+            
           </div>
         </ul>
         <div className='xl:hidden md:hidden sm:block p-4' onClick={toggleMobileMenu}>
           {isMobileMenuVisible ? <CloseIcon /> : <MenuIcon />}
         </div>
-        <div className='absolute border-r-gray-950 w-[230px] h-[100vh] left-[-300px] top-0 bg-gray-300 transition-all ease-in-out' style={mobileMenuStyle}>
+        <div className='lightmode mobilenavbar absolute border-r-gray-950 w-[100%] h-[100vh] left-[-100%] top-0  transition-all ease-in-out' style={mobileMenuStyle}>
+          <div className="flex justify-between items-center p-4 mb-3 border">
+          <div className="px-2 py-1 flex items-center"><DarkModeToggle /></div>
+          <button className=' top-2 left-2' onClick={toggleMobileMenu}>
+            <CloseIcon />
+          </button>
+          </div>
           <div className="image-container ">
             <Image src={Profile} alt="Your Image Alt Text" width={300} height={200} />
           </div>
@@ -115,7 +153,7 @@ const Navbar = () => {
             <li className={`px-2 my-2 py-1 ${activeNavItem === '#Hero' ? 'active' : ''}`} onClick={() => scrollToSection('#Hero')}>Home</li>
             <li className={`px-2 my-2 py-1 ${activeNavItem === '#About' ? 'active' : ''}`} onClick={() => scrollToSection('#About')}>About</li>
             <li className={`px-2 my-2 py-1 ${activeNavItem === '#Profession' ? 'active' : ''}`} onClick={() => scrollToSection('#Profession')}>Profession</li>
-            <li className={`px-2 my-2 py-1 ${activeNavItem === '#Resume' ? 'active' : ''}`} onClick={() => scrollToSection('#Resume')}> <a href="https://drive.google.com/file/d/1E0aMGCoKj6dtNwpJJ94jbAkH6DrXgN3M/view" target="_blank">Resume</a></li>
+            <li className={`px-2 my-2 py-1 ${activeNavItem === '#Resume' ? 'active' : ''}`} onClick={() => scrollToSection('#Resume')}> <a href="https://drive.google.com/file/d/1bf6M3LNK8ONDyYhjW2_t9FFp3diqqesd/view" target="_blank">Resume</a></li>
             <li className={`px-2 my-2 py-1 ${activeNavItem === '#Services' ? 'active' : ''}`} onClick={() => scrollToSection('#Services')}>Services</li>
             <li className={`px-2 my-2 py-1 ${activeNavItem === '#Contact' ? 'active' : ''}`} onClick={() => scrollToSection('#Contact')}>Contact</li>
           </ul>
