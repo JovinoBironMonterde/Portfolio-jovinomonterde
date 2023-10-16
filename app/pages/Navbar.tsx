@@ -10,15 +10,13 @@ import CloseIcon from '@mui/icons-material/Close';
 import DarkModeToggle from '../components/DarkModeToggle'
 import { IconMoonFilled, IconSunFilled  } from '@tabler/icons-react';
 // import { useRouter } from 'next/router';
-// import { IconHome2,IconAddressBook,IconFileCv   } from '@tabler/icons-react';
+ import { IconHome2,IconAddressBook,IconFileCv, IconCertificate2 ,IconBriefcase, IconPhonePlus } from '@tabler/icons-react';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
   const [activeNavItem, setActiveNavItem] = useState<string | null>('#');
   const [isDarkMode, setIsDarkMode] = useState(false);
-
-
 
   useEffect(() => {
     const handleScroll = () => {
@@ -57,8 +55,6 @@ const Navbar = () => {
 
 
   // DARKMODE
-
-
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
   
@@ -76,11 +72,7 @@ const Navbar = () => {
       }
     }
   }
-  
- 
-
   return (
-    
     <div className='NavbarContainer flex justify-between w-full h-[60px]'>
       <nav className='flex justify-between w-full h-[60px]'>
         <div className="logo pl-4">
@@ -134,7 +126,7 @@ const Navbar = () => {
         <div className='xl:hidden md:hidden sm:block p-4' onClick={toggleMobileMenu}>
           {isMobileMenuVisible ? <CloseIcon /> : <MenuIcon />}
         </div>
-        <div className='lightmode mobilenavbar absolute border-r-gray-950 w-[100%] h-[100vh] left-[-100%] top-0  transition-all ease-in-out' style={mobileMenuStyle}>
+        <div className=' mobilenavbar absolute border-r-gray-950 w-[100%] h-[100vh] left-[-100%] top-0  transition-all ease-in-out' style={mobileMenuStyle}>
           <div className="flex justify-between items-center p-4 mb-3 border">
           <div className="px-2 py-1 flex items-center"><DarkModeToggle /></div>
           <button className=' top-2 left-2' onClick={toggleMobileMenu}>
@@ -142,20 +134,20 @@ const Navbar = () => {
           </button>
           </div>
           <div className="image-container ">
-            <Image src={Profile} alt="Your Image Alt Text" width={300} height={200} />
+            <Image src={Profile} alt="Your Image Alt Text" width={200} height={100} />
           </div>
           <div className='sidebarname text-center py-3'>
             <h4>Jovino Monterde</h4>
             <h5>Frontend Developer</h5>
             </div>
 
-          <ul className='mt-10 w-full justify-center text-center'>
-            <li className={`px-2 my-2 py-1 ${activeNavItem === '#Hero' ? 'active' : ''}`} onClick={() => scrollToSection('#Hero')}>Home</li>
-            <li className={`px-2 my-2 py-1 ${activeNavItem === '#About' ? 'active' : ''}`} onClick={() => scrollToSection('#About')}>About</li>
-            <li className={`px-2 my-2 py-1 ${activeNavItem === '#Profession' ? 'active' : ''}`} onClick={() => scrollToSection('#Profession')}>Profession</li>
-            <li className={`px-2 my-2 py-1 ${activeNavItem === '#Resume' ? 'active' : ''}`} onClick={() => scrollToSection('#Resume')}> <a href="https://drive.google.com/file/d/1bf6M3LNK8ONDyYhjW2_t9FFp3diqqesd/view" target="_blank">Resume</a></li>
-            <li className={`px-2 my-2 py-1 ${activeNavItem === '#Services' ? 'active' : ''}`} onClick={() => scrollToSection('#Services')}>Services</li>
-            <li className={`px-2 my-2 py-1 ${activeNavItem === '#Contact' ? 'active' : ''}`} onClick={() => scrollToSection('#Contact')}>Contact</li>
+          <ul className='mt-5 w-full justify-center text-center'>
+            <li className={`my-1 py-2 ${activeNavItem === '#Hero' ? 'active' : ''}`} onClick={() => scrollToSection('#Hero')}><IconHome2/>Home</li>
+            <li className={`my-1 py-2 ${activeNavItem === '#About' ? 'active' : ''}`} onClick={() => scrollToSection('#About')}><IconAddressBook/>About</li>
+            <li className={`my-1 py-2 ${activeNavItem === '#Profession' ? 'active' : ''}`} onClick={() => scrollToSection('#Profession')}><IconCertificate2/>Profession</li>
+            <li className={`${activeNavItem === '#Resume' ? 'active' : ''}`} onClick={() => scrollToSection('#Resume')}> <a className='' href="https://drive.google.com/file/d/1bf6M3LNK8ONDyYhjW2_t9FFp3diqqesd/view" target="_blank"><IconFileCv/>Resume</a></li>
+            <li className={`my-1 py-2 ${activeNavItem === '#Services' ? 'active' : ''}`} onClick={() => scrollToSection('#Services')}><IconBriefcase />Services</li>
+            <li className={`my-1 py-2 ${activeNavItem === '#Contact' ? 'active' : ''}`} onClick={() => scrollToSection('#Contact')}><IconPhonePlus/>Contact</li>
           </ul>
         </div>
       </nav>

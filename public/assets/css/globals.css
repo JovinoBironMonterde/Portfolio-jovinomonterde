@@ -42,6 +42,10 @@ body {
   background-color: #dfe0e4 !important;
   color: black;
 }
+.dark-mode .mobilenavbar{
+  background-color: #3b3b3b !important;
+  color: #fff;
+}
 
 h1{
   font-size: 80px;
@@ -262,6 +266,19 @@ ul  li:hover{
 .sidebarname{
   border-bottom: 1px solid rgb(167, 165, 165);
 }
+.mobilenavbar ul li, .mobilenavbar ul li a{
+  background-color: gray;
+  margin: 10px 50px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobilenavbar ul li svg{
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
 /* .active{
   background-color: rgb(184, 184, 184);
 } */
@@ -286,8 +303,8 @@ ul  li:hover{
 .image-container{
   border-radius: 50%;
     overflow: hidden; 
-    width: 200px; 
-    height: 200px;
+    width: 150px; 
+    height: 150px;
     margin: 0 auto;
 }
 .Footer{
