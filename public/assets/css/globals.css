@@ -42,9 +42,10 @@ body {
   background-color: #dfe0e4 !important;
   color: black;
 }
-.dark-mode .mobilenavbar{
+
+.dark-mode .mobilenavbar, .dark-mode .NavbarContainer{
   background-color: #3b3b3b !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 h1{
@@ -239,8 +240,8 @@ span{
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #afadad;
   z-index: 9999;
+  background-color: #a0a0a0;
 }
 .logoIMG:hover{
   cursor: pointer;
@@ -279,6 +280,7 @@ ul  li:hover{
   height: 20px;
   margin-right: 3px;
 }
+
 /* .active{
   background-color: rgb(184, 184, 184);
 } */

@@ -9,6 +9,7 @@ import {
   IconAt,
   IconBrandTwitter,
   IconBrandInstagram,
+  IconBrandTelegram 
 } from '@tabler/icons-react';
 import '../../public/assets/css/ContactStyle.css';
 
@@ -65,6 +66,14 @@ const Contact = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <IconBrandInstagram className='contactIcon' />
+                </a>
+                <a
+                  href="https://web.telegram.org/a/"
+                  target="_blank"
+                  onMouseEnter={() => handleMouseEnter('Telegram')}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  <IconBrandTelegram className='contactIcon' />
                 </a>
                 {tooltip && <div className="tooltip">{tooltip}</div>}
               </div>

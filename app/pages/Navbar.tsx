@@ -73,12 +73,13 @@ const Navbar = () => {
     }
   }
   return (
-    <div className='NavbarContainer flex justify-between w-full h-[60px]'>
+    <div className='NavbarContainer  flex justify-between w-full h-[60px]'>
       <nav className='flex justify-between w-full h-[60px]'>
-        <div className="logo pl-4">
-          <li className='logoIMG' onClick={() => scrollToSection('#Hero')}>
+        <div className="logo flex items-center pl-4">
+        <h3>Portfolio.</h3>
+          {/* <li className='logoIMG' onClick={() => scrollToSection('#Hero')}>
                 <Image src={Logo} className='mt-1' alt="Your Image Alt Text" width={180} height={90} />
-          </li>
+          </li> */}
         </div>
         <ul className="hidden xl:block md:block p-4">
           <div className="flex items-center">
@@ -126,8 +127,8 @@ const Navbar = () => {
         <div className='xl:hidden md:hidden sm:block p-4' onClick={toggleMobileMenu}>
           {isMobileMenuVisible ? <CloseIcon /> : <MenuIcon />}
         </div>
-        <div className=' mobilenavbar absolute border-r-gray-950 w-[100%] h-[100vh] left-[-100%] top-0  transition-all ease-in-out' style={mobileMenuStyle}>
-          <div className="flex justify-between items-center p-4 mb-3 border">
+        <div className=' mobilenavbar absolute  w-[100%] h-[100vh] left-[-100%] top-0  transition-all ease-in-out' style={mobileMenuStyle}>
+          <div className="flex justify-between items-center p-4 mb-3 ">
           <div className="px-2 py-1 flex items-center"><DarkModeToggle /></div>
           <button className=' top-2 left-2' onClick={toggleMobileMenu}>
             <CloseIcon />
