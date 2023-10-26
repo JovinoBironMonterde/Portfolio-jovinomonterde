@@ -39,7 +39,7 @@ body {
   transition: all .3s ease-in-out;
 }
 .mobilenavbar{
-  background-color: #dfe0e4 !important;
+  background-color: #fff !important;
   color: black;
 }
 
@@ -241,7 +241,7 @@ span{
   top: 0;
   left: 0;
   z-index: 9999;
-  background-color: #a0a0a0;
+  background-color: #f7f7f7;
 }
 .logoIMG:hover{
   cursor: pointer;

@@ -20,9 +20,9 @@ function DarkModeToggle() {
   return (
     <button onClick={toggleDarkMode}>
     {isDarkMode ? (
-    <IconSunFilled  /> 
+      <IconMoonFilled/>
     ) : (
-    <IconMoonFilled/>
+      <IconSunFilled  /> 
     )}
   </button>
   );
