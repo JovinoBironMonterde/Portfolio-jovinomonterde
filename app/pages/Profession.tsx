@@ -18,49 +18,56 @@ const Profession = () => {
                          <div className="barCon reveal fade-left">
                                <label>HTML</label>
                              <div className="bars">
-                                 <div className="percent html"><span>90%</span></div>
+                                 <div className="percent html"><span>95%</span></div>
                              </div>
                          </div>
                          <br />                 
                          <div className="barCon reveal fade-left">
                               <label>CSS</label>
                              <div className="bars">
-                                 <div className="percent css"><span>90%</span></div>
+                                 <div className="percent css"><span>95%</span></div>
                              </div>
                          </div>
                          <br />               
                          <div className="barCon reveal fade-left">
                               <label>Tailwind</label>
                              <div className="bars">
-                                 <div className="percent tailwind"><span>80%</span></div>
+                                 <div className="percent tailwind"><span>85%</span></div>
                              </div>
                          </div>
                          <br /> 
                          <div className="barCon reveal fade-left">
                               <label>Bootstrap</label>
                              <div className="bars">
-                                 <div className="percent bootstrap"><span>85%</span></div>
+                                 <div className="percent bootstrap"><span>95%</span></div>
                              </div>
                          </div>
                          <br /> 
                          <div className="barCon reveal  fade-left">
                               <label>Javascript</label>
                              <div className="bars">
-                                 <div className="percent javascript"><span>75%</span></div>
+                                 <div className="percent javascript"><span>80%</span></div>
                              </div>
                          </div>
                          <br /> 
                          <div className="barCon reveal  fade-left">
                               <label>Jquery</label>
                              <div className="bars">
-                                 <div className="percent Jquery"><span>70%</span></div>
+                                 <div className="percent Jquery"><span>80%</span></div>
                              </div>
                          </div>
                          <br /> 
                          <div className="barCon reveal fade-left">
                               <label>React js/Next js</label>
                              <div className="bars">
-                                 <div className="percent reactnext"><span>70%</span></div>
+                                 <div className="percent reactnext"><span>75%</span></div>
+                             </div>
+                         </div>
+                         <br /> 
+                         <div className="barCon reveal fade-left">
+                              <label>MUI</label>
+                             <div className="bars">
+                                 <div className="percent mui"><span>75%</span></div>
                              </div>
                          </div>
                          <br /> 
@@ -71,6 +78,13 @@ const Profession = () => {
                             </div>
                         </div>
                         <br /> 
+                         <div className="barCon reveal fade-left">
+                              <label>Laravel</label>
+                             <div className="bars">
+                                 <div className="percent laravel"><span>50%</span></div>
+                             </div>
+                         </div>
+                         <br /> 
                         <div className="barCon reveal fade-left">
                             <label>Webflow</label>
                             <div className="bars">
@@ -98,6 +112,7 @@ const Profession = () => {
                                 <div className="percent git"><span>80%</span></div>
                             </div>
                         </div>
+                        
                      </div>
                      {/* <div className="Circlebar-container mt-4 reveal mb-4" >
                         <div className="round-bar">

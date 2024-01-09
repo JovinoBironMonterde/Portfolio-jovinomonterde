@@ -96,6 +96,7 @@ const Footer = () => {
               >
                 Contact
               </li>
+              <li><a href="https://jovinoblogs.vercel.app/" target="_blank">Blog</a></li>
               </ul>
             </div>
           </div>
@@ -125,24 +126,13 @@ const Footer = () => {
               <li className='flex items-center'><IconBrandFacebook/><a href="https://www.facebook.com/MonterdeBrothersTV" target="_blank">Monterde Brother</a></li>
               <li className='flex items-center'><IconBrandInstagram/><a href="https://www.facebook.com/MonterdeBrothersTV" target="_blank">Jhovi1993</a></li>
               <li className='flex items-center'><IconBrandTiktok/><a href="www.tiktok.com/@tibors_tv" target="_blank">Tibors TV</a></li>
-              <li className='flex items-center'><IconBrandYoutube/><a href="https://www.youtube.com/@monterdebrotherstv6640" target="_blank">MONTERDE BROTHER&lsquo;S TV</a></li>
+              <li className='flex items-center'><IconBrandYoutube/><a href="https://youtube.com/@TheMonterdeBrother?si=mTgR2V3r4lpwjjHx" target="_blank">The Monterde Brother Official</a></li>
             </ul>
           </div>
         </div>
 
         
-        <div className="footerMenu">
-          <div className="text-left">
-            <h6>Blog</h6>
-            <ul>
-              <span className='blogtext'>Coming soon!</span>
-              {/* <li className='flex items-center'><IconBrandFacebook/><a href="https://www.facebook.com/MonterdeBrothersTV" target="_blank">Monterde Brother</a></li>
-              <li className='flex items-center'><IconBrandInstagram/><a href="https://www.facebook.com/MonterdeBrothersTV" target="_blank">Jhovi1993</a></li>
-              <li className='flex items-center'><IconBrandTiktok/><a href="www.tiktok.com/@tibors_tv" target="_blank">Tibors TV</a></li>
-              <li className='flex items-center'><IconBrandYoutube/><a href="https://www.youtube.com/@monterdebrotherstv6640" target="_blank">MONTERDE BROTHER'S TV</a></li> */}
-            </ul>
-          </div>
-        </div>
+       
       </div>
       <div className="developText  py-4  bg-zinc-900">
           <span className='flex items-center'><IconCopyright/>2023 | Developed by: Jovino Biron Monterde</span>

@@ -105,28 +105,34 @@
      margin: 40px 0;
 } */
 .html{
-    width: 90%;
+    width: 95%;
 }
 .css{
-    width: 90%;
+    width: 95%;
 }
 .tailwind{
-    width: 80%;
-}
-.bootstrap{
     width: 85%;
 }
+.bootstrap{
+    width: 95%;
+}
 .javascript{
-    width: 75%;
+    width: 80%;
 }
 .Jquery{
-    width: 70%;
+    width: 80%;
 }
 .reactnext{
-    width: 70%;
+    width: 75%;
+}
+.mui{
+    width: 75%;
 }
 .vb{
     width: 80%;
+}
+.laravel{
+    width: 50%;
 }
 .wordpress{
     width: 75%;

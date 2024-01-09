@@ -78,12 +78,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: black;
+}
+.btnsend:hover{
     color: #fff;
 }
 
 .Iconsend{
     width: 18px;
 }
+
 
 .contactIcon{
     width: 40px;
