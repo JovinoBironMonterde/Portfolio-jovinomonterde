@@ -119,6 +119,7 @@ const Navbar = () => {
             >
               Contact
             </li>
+            <li className='px-2 py-1'><Link href="https://jovinoblogs.vercel.app/">Blog</Link></li>
             <div className="navdevider ">|</div>
             <div className="px-2 py-1 flex items-center"><DarkModeToggle /></div>
             
