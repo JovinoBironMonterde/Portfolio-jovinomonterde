@@ -105,7 +105,7 @@ const Navbar = () => {
               className={`px-2 py-1 ${activeNavItem === '#Resume' ? 'active' : ''}`}
               onClick={() => scrollToSection('#Resume')}
             >
-              <a href="https://drive.google.com/file/d/1bf6M3LNK8ONDyYhjW2_t9FFp3diqqesd/view" target="_blank">Resume</a>
+              <a href="https://drive.google.com/file/d/1ByOqdp5Yavh6dBAegNGviz1pLgJ5Pbxn/view" target="_blank">Resume</a>
             </li>
             <li
               className={`px-2 py-1 ${activeNavItem === '#Services' ? 'active' : ''}`}
@@ -147,9 +147,10 @@ const Navbar = () => {
             <li className={`my-1 py-2 ${activeNavItem === '#Hero' ? 'active' : ''}`} onClick={() => scrollToSection('#Hero')}><IconHome2/>Home</li>
             <li className={`my-1 py-2 ${activeNavItem === '#About' ? 'active' : ''}`} onClick={() => scrollToSection('#About')}><IconAddressBook/>About</li>
             <li className={`my-1 py-2 ${activeNavItem === '#Profession' ? 'active' : ''}`} onClick={() => scrollToSection('#Profession')}><IconCertificate2/>Profession</li>
-            <li className={`${activeNavItem === '#Resume' ? 'active' : ''}`} onClick={() => scrollToSection('#Resume')}> <a className='' href="https://drive.google.com/file/d/1bf6M3LNK8ONDyYhjW2_t9FFp3diqqesd/view" target="_blank"><IconFileCv/>Resume</a></li>
+            <li className={`${activeNavItem === '#Resume' ? 'active' : ''}`} onClick={() => scrollToSection('#Resume')}> <a className='' href="https://drive.google.com/file/d/1ByOqdp5Yavh6dBAegNGviz1pLgJ5Pbxn/view" target="_blank"><IconFileCv/>Resume</a></li>
             <li className={`my-1 py-2 ${activeNavItem === '#Services' ? 'active' : ''}`} onClick={() => scrollToSection('#Services')}><IconBriefcase />Services</li>
             <li className={`my-1 py-2 ${activeNavItem === '#Contact' ? 'active' : ''}`} onClick={() => scrollToSection('#Contact')}><IconPhonePlus/>Contact</li>
+            <li className='px-2 py-1'><Link href="https://jovino-monterde-blogs-7mzsk5i81-jovinobironmonterde.vercel.app/">Blog</Link></li>
           </ul>
         </div>
       </nav>
