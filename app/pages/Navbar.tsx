@@ -120,7 +120,7 @@ const Navbar = () => {
             >
               Contact
             </li>
-            <li className='px-2 py-1'><Link href="https://jovino-monterde-blogs-7mzsk5i81-jovinobironmonterde.vercel.app/">Blog</Link></li>
+            <li className='px-2 py-1'><Link href="https://jovino-monterde-blogs.vercel.app/">Blog</Link></li>
             <div className="navdevider ">|</div>
             <div className="px-2 py-1 flex items-center"><DarkModeToggle /></div>
             
@@ -151,7 +151,7 @@ const Navbar = () => {
             <li className={`${activeNavItem === '#Resume' ? 'active' : ''}`} onClick={() => scrollToSection('#Resume')}> <a className='' href="https://drive.google.com/file/d/1ByOqdp5Yavh6dBAegNGviz1pLgJ5Pbxn/view" target="_blank"><IconFileCv/>Resume</a></li>
             <li className={`my-1 py-2 ${activeNavItem === '#Services' ? 'active' : ''}`} onClick={() => scrollToSection('#Services')}><IconBriefcase />Services</li>
             <li className={`my-1 py-2 ${activeNavItem === '#Contact' ? 'active' : ''}`} onClick={() => scrollToSection('#Contact')}><IconPhonePlus/>Contact</li>
-            <li className=''><Link href="https://jovino-monterde-blogs-7mzsk5i81-jovinobironmonterde.vercel.app/"><BookIcon />Blog</Link></li>
+            <li className=''><Link href="https://jovino-monterde-blogs.vercel.app/"><BookIcon />Blog</Link></li>
           </ul>
         </div>
       </nav>
