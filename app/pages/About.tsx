@@ -31,7 +31,7 @@ const About = () => {
                 together to bring your ideas to life on the web!</p>
 
                 <div className='mt-4'>
-                  <button className='downloadBTN'><a className="linked btnlinked" type="button" href="https://drive.google.com/file/d/1ByOqdp5Yavh6dBAegNGviz1pLgJ5Pbxn/view" target="_blank"><span>Download CV</span></a></button>
+                  <button className='downloadBTN'><a className="linked btnlinked" type="button" href="https://drive.google.com/file/d/14FtGVhfgvnJ41SWku4SGqrNJHyJcopM6/view" target="_blank"><span>Download CV</span></a></button>
                   <a href="https://www.facebook.com/jhovi.norib" target="_blank" className='socialAcout '><FacebookIcon /></a>
                   <a href="https://github.com/JovinoBironMonterde" target="_blank" className='socialAcout '><GitHubIcon /></a>
                   <a href="https://www.linkedin.com/in/jovinobironmonterde/" target="_blank" className='socialAcout '><LinkedInIcon /></a>
