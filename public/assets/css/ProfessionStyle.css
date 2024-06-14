@@ -159,6 +159,7 @@
     text-align: center;
     justify-content: center;
     margin-top: 30px;
+    /* padding-right: 40px !important; */
 }
 .round-bar{
     justify-content: flex-end;
@@ -170,6 +171,9 @@
     justify-content: end;
     padding-right: 40px;
     
+}
+.CirclebarContent{
+    margin: 0 30px;
 }
 
 

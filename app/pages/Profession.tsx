@@ -114,22 +114,20 @@ const Profession = () => {
                         </div>
                         
                      </div>
-                     {/* <div className="Circlebar-container mt-4 reveal mb-4" >
+                      <div className="Circlebar-container mt-4 reveal mb-4" >
                         <div className="round-bar">
-                            <div className='text-center mx-2 reveal fade-left'>
-                              
+                            <div className='CirclebarContent text-center mx-4 reveal fade-bottom'>                         
                                 <div className="outer figma">
                                     <div className="inner">
                                         <div className="icon"><i className="fa-brands fa-figma"></i></div>
                                     </div>
-                                   
                                     <span className="Circlebar-percent">
                                         <IconBrandFigma />
                                         85%
                                     </span>
                                 </div>
                             </div>
-                            <div className='text-center mx-2 reveal fade-left'>
+                            <div className='CirclebarContent text-center mx-4 reveal fade-bottom'>
                                
                                 <div className="outer figma">
                                     <div className="inner">
@@ -141,7 +139,7 @@ const Profession = () => {
                                     </span>
                                 </div>
                             </div>
-                            <div className='text-center mx-2 reveal fade-left'>
+                            <div className='CirclebarContent text-center mx-4 reveal fade-bottom'>
                               
                                 <div className="outer figma">
                                     <div className="inner">
@@ -151,7 +149,7 @@ const Profession = () => {
                                 </div>
                             </div>
                         </div>
-                    </div> */} 
+                    </div>
                  </div>
                  
                  <div className="experience">
