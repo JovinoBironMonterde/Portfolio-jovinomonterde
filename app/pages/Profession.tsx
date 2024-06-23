@@ -205,7 +205,7 @@ const Profession = () => {
                          </div>
                           <div className="expCon reveal fade-bottom my-8">
                              <h5>Mimnu</h5>
-                             <h5>May 2023 - October 2023</h5>
+                             <h5>May 2023 - May 2024</h5>
                              <h5>Front-End Web Developer (WFH)</h5>
                              <p>My role at Mimnu, an e-commerce site, I am responsible
                                  for designing each webpage with a strong emphasis on creating
