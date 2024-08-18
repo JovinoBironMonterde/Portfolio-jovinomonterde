@@ -101,7 +101,7 @@ const Contact = () => {
                   <option value="proposal">Proposal</option>
                   <option value="inquire">Inquire</option>
                 </select>
-                <button className='btnsend' type="submit"><IconSend className='Iconsend' />Send</button>
+                <button className='btnsend ' type="submit"><IconSend className='Iconsend' />Send</button>
               </div>
             </form>
           </div>

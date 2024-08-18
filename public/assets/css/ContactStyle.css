@@ -74,11 +74,12 @@
     width: 50%;
     margin-left: 10px;
     border-radius: 10px;
-    color: rgb(87, 85, 85);
+
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
+
+   
 }
 .btnsend:hover{
     color: #fff;

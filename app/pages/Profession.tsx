@@ -114,7 +114,7 @@ const Profession = () => {
                         </div>
                         
                      </div>
-                      <div className="Circlebar-container mt-4 reveal mb-4" >
+                      {/* <div className="Circlebar-container mt-4 reveal mb-4" >
                         <div className="round-bar">
                             <div className='CirclebarContent text-center mx-4 reveal fade-bottom'>                         
                                 <div className="outer figma">
@@ -149,7 +149,7 @@ const Profession = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                  </div>
                  
                  <div className="experience">
