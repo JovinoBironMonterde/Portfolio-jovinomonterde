@@ -216,6 +216,17 @@ const Profession = () => {
                                   overall usability of the website.
                                  </p>
                          </div>
+                         <div className="expCon reveal fade-bottom my-8">
+                             <h5>Lolita Heights Hotel</h5>
+                             <h5>March 2024 - August 2024</h5>
+                             <h5>Property Management System(PMS)</h5>
+                             <p>Built a Property Management System using React.js and Material-UI (MUI).
+                                 Developed features like Check-in/Check-out, online booking, employee scheduling, payroll, 
+                                 and biometric attendance tracking. Designed responsive UIs, integrated RESTful APIs, 
+                                 and collaborated with backend teams to optimize performance.
+                                 Delivered a scalable, user-friendly solution that enhanced operational efficiency.
+                                 </p>
+                         </div>
  
                          
                      </div>
