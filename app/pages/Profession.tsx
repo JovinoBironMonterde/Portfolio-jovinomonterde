@@ -165,7 +165,7 @@ const Profession = () => {
                                  equipment, comply with policies, and collaborate
                                  with security teams</p>
                          </div>
-                         <div className="linr-hr2">
+                         {/* <div className="linr-hr2">
                              <hr/>
                          </div>
                           <div className="expCon reveal fade-bottom my-8">
@@ -175,7 +175,7 @@ const Profession = () => {
                              <p>Assisting property owners and taxpayers with
                                  inquiries related to assessments, property values, tax
                                  calculations, and assessment appeals</p>
-                         </div>
+                         </div> */}
                          <div className="linr-hr2">
                              <hr/>
                          </div>
@@ -227,8 +227,6 @@ const Profession = () => {
                                  Delivered a scalable, user-friendly solution that enhanced operational efficiency.
                                  </p>
                          </div>
- 
-                         
                      </div>
                  </div>
              </div>

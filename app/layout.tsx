@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-    
+        <div className='main-content main-content-hidden'>
         <Navbar/>
         <Hero/>
         <About/>
@@ -36,6 +36,7 @@ export default function RootLayout({
         <Contact/>
         <Footer/>
         {children}
+        </div>
         </body>
   </html>
   )

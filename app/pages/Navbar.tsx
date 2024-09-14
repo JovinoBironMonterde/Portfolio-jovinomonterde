@@ -74,7 +74,7 @@ const Navbar = () => {
     }
   }
   return (
-    <div className='NavbarContainer  flex justify-between w-full h-[60px]'>
+    <div className='NavbarContainer main-content  flex justify-between w-full h-[60px]'>
       <nav className='flex justify-between w-full h-[60px]'>
         <div className="logo flex items-center pl-4">
         <h3>Portfolio.</h3>
@@ -153,7 +153,7 @@ const Navbar = () => {
             <li className={`my-1 py-2 ${activeNavItem === '#Hero' ? 'active' : ''}`} onClick={() => scrollToSection('#Hero')}><IconHome2/>Home</li>
             <li className={`my-1 py-2 ${activeNavItem === '#About' ? 'active' : ''}`} onClick={() => scrollToSection('#About')}><IconAddressBook/>About</li>
             <li className={`my-1 py-2 ${activeNavItem === '#Profession' ? 'active' : ''}`} onClick={() => scrollToSection('#Profession')}><IconCertificate2/>Profession</li>
-            <li className={`${activeNavItem === '#Resume' ? 'active' : ''}`} onClick={() => scrollToSection('#Resume')}> <a className='' href="https://drive.google.com/file/d/14FtGVhfgvnJ41SWku4SGqrNJHyJcopM6/view" target="_blank"><IconFileCv/>Resume</a></li>
+            <li className={`${activeNavItem === '#Resume' ? 'active' : ''}`} onClick={() => scrollToSection('#Resume')}> <a className='' href="https://drive.google.com/file/d/1C6LPiAlAbSmBBT2LiMAqqwi6vYHcJooO/view?usp=sharing" target="_blank"><IconFileCv/>Resume</a></li>
             <li className={`my-1 py-2 ${activeNavItem === '#Services' ? 'active' : ''}`} onClick={() => scrollToSection('#Services')}><IconBriefcase />Services</li>
             <li className={`my-1 py-2 ${activeNavItem === '#Contact' ? 'active' : ''}`} onClick={() => scrollToSection('#Contact')}><IconPhonePlus/>Contact</li>
             <li className=''><Link href="https://mybogs-v2.vercel.app/"><BookIcon />Blog</Link></li>
