@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Profile from '../../public/assets/img/image1.jpg'; 
+import Profile from '../../public/assets/img/92953618154.png'; 
 import Logo from '../../public/assets/img/logo2.png'; 
 import MenuIcon from '@mui/icons-material/Menu';
 import MedicalInformationIcon from '@mui/icons-material/MedicalInformation';
@@ -42,7 +42,7 @@ const Navbar = () => {
   };
 
   const mobileMenuStyle = {
-    left: isMobileMenuVisible ? '0px' : '-100%',
+    left: isMobileMenuVisible ? '0px' : '-120%',
   };
 
   const scrollToSection = (sectionId: string) => {
@@ -77,7 +77,7 @@ const Navbar = () => {
     <div className='NavbarContainer main-content  flex justify-between w-full h-[60px]'>
       <nav className='flex justify-between w-full h-[60px]'>
         <div className="logo flex items-center pl-4">
-        <h3>Portfolio.</h3>
+          <h3>Portfolio.</h3>
           {/* <li className='logoIMG' onClick={() => scrollToSection('#Hero')}>
                 <Image src={Logo} className='mt-1' alt="Your Image Alt Text" width={180} height={90} />
           </li> */}

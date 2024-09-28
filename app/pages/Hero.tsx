@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import '../../public/assets/css/HeroStyle.css'
 // import RippleButton from '../components/RippleButton'
-import HeroImage from '../../public/assets/img/image1.jpg'; 
+import HeroImage from '../../public/assets/img/92953618154.png'; 
 
 const Hero = () => {
   const [isScrolled, setIsScrolled] = useState(false);

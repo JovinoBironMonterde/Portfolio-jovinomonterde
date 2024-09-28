@@ -2,7 +2,7 @@ import React from 'react'
 import '../../public/assets/css/AboutStyle.css'
 import Link from 'next/link';
 import Image from 'next/image';
-import AboutImage from '../../public/assets/img/image1.jpg'; 
+import AboutImage from '../../public/assets/img/NewProfile.png'; 
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -16,7 +16,7 @@ const About = () => {
         <div className="About-content">
           <div className="flex flex-[40%] justify-center reveal fade-bottom">
               <div className="aboutImage">
-              <Image src={AboutImage} alt="Your Image Alt Text" width={300} height={200} />
+              <Image src={AboutImage} alt="Your Image Alt Text" width={400} height={400} />
               </div>
           </div>
           <div className="flex flex-[40%] justify-center items-center p-4">

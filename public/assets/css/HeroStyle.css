@@ -18,12 +18,14 @@
   
   }
   .HeroImage{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
     margin-bottom: 30px;
+    background-color: #f4f4f4;
+    border: 8spx solid #eca655;
   }  .HeroSection .h2{
     display: none;
   }
