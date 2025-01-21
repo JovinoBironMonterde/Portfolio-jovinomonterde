@@ -106,7 +106,7 @@ const Navbar = () => {
               className={`px-2 py-1 ${activeNavItem === '#Resume' ? 'active' : ''}`}
               onClick={() => scrollToSection('#Resume')}
             >
-              <a href="https://drive.google.com/file/d/14FtGVhfgvnJ41SWku4SGqrNJHyJcopM6/view" target="_blank">Resume</a>
+              <a href="https://drive.google.com/file/d/10D-LYwN6BYhmxyz3vSQmfBgdKK5v93-w/view?usp=sharing" target="_blank">Resume</a>
             </li>
             <li
               className={`px-2 py-1 ${activeNavItem === '#Services' ? 'active' : ''}`}
@@ -125,7 +125,7 @@ const Navbar = () => {
             >
               Blog
             </li> */}
-            <li className='px-2 py-1'><Link href="https://mybogs-v2.vercel.app/">Blog</Link></li>
+            {/* <li className='px-2 py-1'><Link href="https://mybogs-v2.vercel.app/">Blog</Link></li> */}
             <div className="navdevider ">|</div>
             <div className="px-2 py-1 flex items-center"><DarkModeToggle /></div>
             

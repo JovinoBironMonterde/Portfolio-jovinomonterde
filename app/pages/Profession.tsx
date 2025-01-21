@@ -227,6 +227,16 @@ const Profession = () => {
                                  Delivered a scalable, user-friendly solution that enhanced operational efficiency.
                                  </p>
                          </div>
+                         <div className="expCon reveal fade-bottom my-8">
+                             <h5>GiantFocal | Part Time</h5>
+                             <h5>October 2024 - January 2025</h5>
+                             <h5>Frontend Developer</h5>
+                             <p>At Giantfocal, I transformed mockups into custom HubSpot modules,
+                                ensuring full responsiveness across devices. Using HTML, Tailwind CSS, Javascript and Jquery, 
+                                I built user-friendly layouts, integrated HubDB for dynamic
+                                content, and optimized modules for seamless performance and
+                             </p>
+                         </div>
                      </div>
                  </div>
              </div>
