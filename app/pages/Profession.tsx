@@ -91,15 +91,6 @@ const Profession = () => {
                                 <div className="percent webflow"><span>75%</span></div>
                             </div>
                         </div>
-                        
-                        <br /> 
-                        <div className="barCon reveal fade-left">
-                            <label>Webflow</label>
-                            <div className="bars">
-                                <div className="percent webflow"><span>75%</span></div>
-                            </div>
-                        </div>
-
                         <br /> 
                         <div className="barCon reveal fade-left">
                             <label>Hubspot</label>
