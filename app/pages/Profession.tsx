@@ -101,6 +101,14 @@ const Profession = () => {
                         </div>
 
                         <br /> 
+                        <div className="barCon reveal fade-left">
+                            <label>Hubspot</label>
+                            <div className="bars">
+                                <div className="percent hubspot"><span>70%</span></div>
+                            </div>
+                        </div>
+
+                        <br /> 
                          {/* <div className="barCon reveal fade-left">
                               <label>VB.Net</label>
                              <div className="bars">
