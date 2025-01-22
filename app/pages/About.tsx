@@ -26,7 +26,7 @@ const About = () => {
 <p>I&#39;m always open to new opportunities and collaborations. If you have a project in mind or just want to chat about all things web development, feel free to reach out. Let&#39;s work together to bring your ideas to life on the web!</p>
 
                 <div className='mt-4'>
-                  <button className='downloadBTN'><a className="linked btnlinked" type="button" href="https://drive.google.com/file/d/10D-LYwN6BYhmxyz3vSQmfBgdKK5v93-w/view?usp=sharing" target="_blank"><span>Download CV</span></a></button>
+                  <button className='downloadBTN'><a className="linked btnlinked" type="button" href="https://drive.google.com/file/d/1HuCFRexErT1kxD5t3JY1SrtCa-xCIeN1/view?usp=sharing" target="_blank"><span>Download CV</span></a></button>
                   <a href="https://www.facebook.com/jhovi.norib" target="_blank" className='socialAcout '><FacebookIcon /></a>
                   <a href="https://github.com/JovinoBironMonterde" target="_blank" className='socialAcout '><GitHubIcon /></a>
                   <a href="https://www.linkedin.com/in/jovinobironmonterde/" target="_blank" className='socialAcout '><LinkedInIcon /></a>

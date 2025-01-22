@@ -91,6 +91,15 @@ const Profession = () => {
                                 <div className="percent webflow"><span>75%</span></div>
                             </div>
                         </div>
+                        
+                        <br /> 
+                        <div className="barCon reveal fade-left">
+                            <label>Webflow</label>
+                            <div className="bars">
+                                <div className="percent webflow"><span>75%</span></div>
+                            </div>
+                        </div>
+
                         <br /> 
                          {/* <div className="barCon reveal fade-left">
                               <label>VB.Net</label>
@@ -227,7 +236,7 @@ const Profession = () => {
                                  Delivered a scalable, user-friendly solution that enhanced operational efficiency.
                                  </p>
                          </div>
-                         <div className="expCon reveal fade-bottom my-8">
+                         {/* <div className="expCon reveal fade-bottom my-8">
                              <h5>GiantFocal | Part Time</h5>
                              <h5>October 2024 - January 2025</h5>
                              <h5>Frontend Developer</h5>
@@ -236,7 +245,7 @@ const Profession = () => {
                                 I built user-friendly layouts, integrated HubDB for dynamic
                                 content, and optimized modules for seamless performance and
                              </p>
-                         </div>
+                         </div> */}
                      </div>
                  </div>
              </div>
