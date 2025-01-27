@@ -9,6 +9,7 @@ import Services from './pages/Services'
 import Contact from './pages/Contact'
 import Projects from './pages/Projects'
 import Footer from './pages/Footer'
+import Testpage from './pages/Testpage'
 // import DarkModeToggle from './components/DarkModeToggle'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -32,6 +33,7 @@ export default function RootLayout({
         <About/>
         <Profession/>
         <Projects />
+        {/* <Testpage/> */}
         <Services/>
         <Contact/>
         <Footer/>
